@@ -29,3 +29,5 @@ pigeon_data.each do |key, val_hash|
     #puts "#{inner_key}, #{val_arr}"
   end
 end
+
+puts hash
