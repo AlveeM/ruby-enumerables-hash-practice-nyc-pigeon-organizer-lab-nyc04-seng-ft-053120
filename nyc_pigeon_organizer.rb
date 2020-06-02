@@ -24,7 +24,7 @@ hash = {}
 pigeon_data.each do |key, val_hash|
   val_hash.each do |inner_key, val_arr|
       val_arr.each do |name|
-        puts "#{name}"
+        (hash[name] != nil) ? hash[name] << 
       end
     #puts "#{inner_key}, #{val_arr}"
   end
