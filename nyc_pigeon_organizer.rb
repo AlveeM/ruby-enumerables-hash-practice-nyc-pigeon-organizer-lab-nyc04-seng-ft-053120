@@ -30,6 +30,7 @@ pigeon_data.each do |key, val_hash|
           hash[name] = {}
           hash[name][key] = []
         end
+        puts hash
         hash[name][key] << inner_key.to_s
       end
   end
