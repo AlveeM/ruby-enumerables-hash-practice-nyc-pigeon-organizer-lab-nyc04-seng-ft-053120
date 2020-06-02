@@ -26,6 +26,6 @@ pigeon_data.each do |key, val_hash|
       val_arr.each do |name|
         puts "#{name}"
       end
-    puts "#{inner_key}, #{val_arr}"
+    #puts "#{inner_key}, #{val_arr}"
   end
 end
