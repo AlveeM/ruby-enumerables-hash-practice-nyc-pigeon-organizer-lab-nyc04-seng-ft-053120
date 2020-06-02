@@ -20,3 +20,7 @@ pigeon_data = {
     "City Hall" => ["Andrew"]
   }
 }
+
+pigeon_data.each do |key, val|
+  pp "#{key}, #{val}"
+end
