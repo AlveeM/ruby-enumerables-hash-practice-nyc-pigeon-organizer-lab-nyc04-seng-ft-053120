@@ -28,7 +28,6 @@ pigeon_data.each do |key, val_hash|
       val_arr.each do |name|
         (!hash[name].nil?) ? (hash[name][key] << inner_key.to_s) : (hash[name][key] = [inner_key.to_s])
       end
-    #puts "#{inner_key}, #{val_arr}"
   end
 end
 
