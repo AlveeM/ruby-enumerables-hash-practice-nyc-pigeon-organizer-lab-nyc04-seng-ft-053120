@@ -20,7 +20,7 @@ pigeon_data = {
     "City Hall" => ["Andrew"]
   }
 }
-
+hash = {}
 pigeon_data.each do |key, val_hash|
   val_hash.each do |inner_key, val_arr|
     puts "#{inner_key}, #{val_arr}"
